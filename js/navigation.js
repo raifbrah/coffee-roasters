@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
     }
   } else {
     navigation.style.padding = '48px 40px'
-    navigation.style.backgroundColor = 'none'
+    navigation.style.backgroundColor = '#0000'
   }
 });
 
