@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <input type="checkbox" id="menu__checkbox" class="menu__checkbox">
+  <div class="menu__bg-shadow"></div>
+  <div class="wrapper">
+    <nav class="navigation">
+      <a href="*" class="navigation__logo">coffee house</a>
+      
+      <label for="menu__checkbox" class="menu__burger-btn">
+        <span class="menu__burger-line"></span>
+      </label>
+
+      <div class="menu">
+        <a class="menu__btn">home</a>
+        <a class="menu__btn">why us</a>
+        <a class="menu__btn">menu</a>
+        <a class="menu__btn">happy clients</a>
+        <a class="menu__btn">blog</a>
+        <a class="menu__btn">our locations</a>
+        <a class="menu__btn">newsletter</a>
+      </div>
+    </nav>
+  
+    <header class="header" id="header">
+      <div class="header__content">
+        <img class="main-logo" src="./img/header/main-logo.svg" alt="main logotype">
+        <h1 class="header__title">the coffee roasters</h1>
+        <p class="header__subtitle">We source our coffee seasonally, from farmers who care, and roast to highlight what makes them special.</p>
+      </div>
+      <a class="header__btn square-btn">view our menu</a>
+    </header>
+
+    <div class="why-us" id="why-us">
+      <div class="why-us__left">
+        <div class="why-us__advantage">
+          <p class="why-us__name">indoor seating</p>
+          <div class="why-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        </div>
+        <div class="why-us__advantage">
+          <p class="why-us__name">pet friendly</p>
+          <div class="why-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        </div>
+        <div class="why-us__advantage">
+          <p class="why-us__name">take away</p>
+          <div class="why-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        </div>
+      </div>
+      <div class="why-us__right">
+        <div class="why-us__advantage">
+          <p class="why-us__name">wheelchair accessible</p>
+          <div class="why-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        </div>
+        <div class="why-us__advantage">
+          <p class="why-us__name">vegan options</p>
+          <div class="why-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        </div>
+        <div class="why-us__advantage">
+          <p class="why-us__name">cyclist friendly</p>
+          <div class="why-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="coffee-invitation">
+      <div class="title-with-description">
+        <h3 class="title-with-description__title">Looking for a fresh coffee?</h3>
+        <span class="decorative-line"></span>
+        <p class="title-with-description__description">Come drink a coffee with us on<br>Fleet Street,  Chancery Lane or Milkwood Road!</p>
+      </div>
+      <a href="" class="coffee-invitation__btn square-btn">BOOK A TABLE</a>
+    </section>
+
+    <section class="our-menu" id="our-menu">
+      <div class="title-with-description">
+        <h3 class="title-with-description__title">Explore our menu</h3>
+        <span class="decorative-line"></span>
+        <p class="title-with-description__description">Available all day! We can not guarantee our foods are allergen-free. Service charge not included.</p>
+      </div>
+      
+      <input checked type="radio" name="our-menu__radio" id="our-menu__radio-1">
+      <input type="radio" name="our-menu__radio" id="our-menu__radio-2">
+      <div class="our-menu__toggle-btns-container">
+        <label class="our-menu__toggle-btn" for="our-menu__radio-1">food</label>
+        <label class="our-menu__toggle-btn" for="our-menu__radio-2">drinks</label>
+      </div>
+      <div class="our-menu__slider">
+        <div class="our-menu__slider-container">
+          <div class="our-menu__slider-slide">
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Prufrock Breakfast Bun.png" alt="Prufrock Breakfast Bun">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">prufrock breakfast bun</p>
+                  <p class="our-menu__dish-price">$8</p>
+                </div>
+                <div class="our-menu__dish-description">Brioche bun, with bacon, scrambled egg, melty cheese and mustard</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Mushrooms (Vegan on request).png" alt="Mushrooms (Vegan on request)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Mushrooms (Vegan on request)</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Field mushrooms on toast with graceburn cheese and aioli</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Bircher muesli (VEgan).png" alt="Bircher muesli (VEgan)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Bircher muesli (VEgan)</p>
+                  <p class="our-menu__dish-price">$6.5</p>
+                </div>
+                <div class="our-menu__dish-description">Bircher muesli with strawberries and cacao nibs</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Tomatoes on toast.png" alt="Tomatoes on toast">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Tomatoes on toast</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Heirloom tomatoes with lovage pesto and chives on toasted sourdough</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/House Granola (Vegetarian, Glutten Free).png" alt="House Granola (Vegetarian, Glutten Free)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">House Granola (Vegetarian, Glutten Free)</p>
+                  <p class="our-menu__dish-price">$6.5</p>
+                </div>
+                <div class="our-menu__dish-description">Granola with jumbo oats and nuts served with Greek yoghurt and apricots</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Fruit Toast.png" alt="Fruit Toast">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Fruit Toast</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Fruity rye toast served with Stichelton cheese and red plum</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Prufrock benny.png" alt="Prufrock benny">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Prufrock benny</p>
+                  <p class="our-menu__dish-price">$10</p>
+                </div>
+                <div class="our-menu__dish-description">Cackleberry Farm poached eggs, Red Brick espresso hollandaise on toast</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Eggs on toast.png" alt="Eggs on toast">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Eggs on toast</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Cackleberry eggs - poached, fried or scrambled on sourdough toast</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Soup (Vegan on request).png" alt="Soup (Vegan on request)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Soup (Vegan on request)</p>
+                  <p class="our-menu__dish-price">$6.5</p>
+                </div>
+                <div class="our-menu__dish-description">Gazpacho served with sourdough toast</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Toast (Vegan on request).png" alt="Toast (Vegan on request)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Toast (Vegan on request)</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Sourdough toast with butter and blueberry and blackcurrant jam</div>
+              </div>
+            </div>
+          </div>
+          <div class="our-menu__slider-slide">
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Prufrock Breakfast Bun.png" alt="Prufrock Breakfast Bun">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">prufrock breakfast bun</p>
+                  <p class="our-menu__dish-price">$8</p>
+                </div>
+                <div class="our-menu__dish-description">Brioche bun, with bacon, scrambled egg, melty cheese and mustard</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Mushrooms (Vegan on request).png" alt="Mushrooms (Vegan on request)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Mushrooms (Vegan on request)</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Field mushrooms on toast with graceburn cheese and aioli</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Bircher muesli (VEgan).png" alt="Bircher muesli (VEgan)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Bircher muesli (VEgan)</p>
+                  <p class="our-menu__dish-price">$6.5</p>
+                </div>
+                <div class="our-menu__dish-description">Bircher muesli with strawberries and cacao nibs</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Tomatoes on toast.png" alt="Tomatoes on toast">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Tomatoes on toast</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Heirloom tomatoes with lovage pesto and chives on toasted sourdough</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/House Granola (Vegetarian, Glutten Free).png" alt="House Granola (Vegetarian, Glutten Free)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">House Granola (Vegetarian, Glutten Free)</p>
+                  <p class="our-menu__dish-price">$6.5</p>
+                </div>
+                <div class="our-menu__dish-description">Granola with jumbo oats and nuts served with Greek yoghurt and apricots</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Fruit Toast.png" alt="Fruit Toast">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Fruit Toast</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Fruity rye toast served with Stichelton cheese and red plum</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Prufrock benny.png" alt="Prufrock benny">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Prufrock benny</p>
+                  <p class="our-menu__dish-price">$10</p>
+                </div>
+                <div class="our-menu__dish-description">Cackleberry Farm poached eggs, Red Brick espresso hollandaise on toast</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Eggs on toast.png" alt="Eggs on toast">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Eggs on toast</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Cackleberry eggs - poached, fried or scrambled on sourdough toast</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Soup (Vegan on request).png" alt="Soup (Vegan on request)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Soup (Vegan on request)</p>
+                  <p class="our-menu__dish-price">$6.5</p>
+                </div>
+                <div class="our-menu__dish-description">Gazpacho served with sourdough toast</div>
+              </div>
+            </div>
+            <div class="our-menu__dish">
+              <img src="./img/our-menu/foods/Toast (Vegan on request).png" alt="Toast (Vegan on request)">
+              <div class="our-menu__dish-information">
+                <div class="our-menu__dish-name-and-price">
+                  <p class="our-menu__dish-name">Toast (Vegan on request)</p>
+                  <p class="our-menu__dish-price">$3.45</p>
+                </div>
+                <div class="our-menu__dish-description">Sourdough toast with butter and blueberry and blackcurrant jam</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="title-with-description">
+        <h3 class="title-with-description__title">Testimonials</h3>
+        <span class="decorative-line"></span>
+      </div>
+
+      <div class="testimonials-slider">
+        <!-- <div class="testimonials-slider__container"> -->
+          <div class="testimonials-slider__slide">
+            <p class="testimonials-slider__review">I had a cup of iced coffee, which was perfect size for me. Not too big. The cup is stylish with slim design. The iced coffee was perfect for a warm day like today. 
+              <br>The cafe is clean and welcoming.</p>
+            <p class="testimonials-slider__reviewer-name">Chiho Sharp, local expert</p>
+          </div>
+          <div class="testimonials-slider__slide">
+            <p class="testimonials-slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat numquam aperiam consequuntur ipsum labore sit vitae enim et nisi reprehenderit? Amet maiores aperiam quis similique earum obcaecati repellendus dolorem.</p>
+            <p class="testimonials-slider__reviewer-name">Nina Riche, main expert</p>
+          </div>
+          <div class="testimonials-slider__slide">
+            <p class="testimonials-slider__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quaerat reprehenderit iure officia deserunt maxime sequi doloremque quibusdam cumque ratione ex debitis rerum consequuntur beatae dicta architecto ipsum omnis, sint enim quae.</p>
+            <p class="testimonials-slider__reviewer-name">Grand Chtovskiy, local expert from USA</p>
+          </div>
+        <!-- </div> -->
+      </div>
+      <div class="testimonials-slider__switches-container">
+        <input checked type="radio" class="testimonials-slider__radio" name="testimonials-slider__radio" id="testimonials-slider__radio-1">
+        <span class="testimonials-slider__switch"></span>
+        <input type="radio" class="testimonials-slider__radio" name="testimonials-slider__radio" id="testimonials-slider__radio-2">
+        <span class="testimonials-slider__switch"></span>
+        <input type="radio" class="testimonials-slider__radio" name="testimonials-slider__radio" id="testimonials-slider__radio-3">
+        <span class="testimonials-slider__switch"></span>
+      </div>
+    </section>
+
+    <section class="news" id="news">
+      <div class="title-with-description">
+        <h3 class="title-with-description__title">News</h3>
+        <span class="decorative-line"></span>
+        <p class="title-with-description__description">Stay updated on all the latest Coffee House products, events
+          <br>& community news.</p>
+      </div>
+      
+      <div class="news__content">
+        <div class="news__publication">
+          <img src="./img/news/post-1.png" class="news__img" alt="Moka pot">
+          <div class="news__title-and-description">
+            <h6 class="news__title">Moka pot</h6>
+            <p class="news__description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+          </div>
+          <a href="#" class="news__read-more">— Read more</a>
+        </div>
+        <div class="news__publication">
+          <img src="./img/news/post-2.png" class="news__img" alt="Moka pot">
+          <div class="news__title-and-description">
+            <h6 class="news__title">Women in Coffee - Women’s Collective</h6>
+            <p class="news__description">Our Quality Control Lead in Melbourne, Jane Doe, is instrumental in selecting single origin coffee for Coffe House Espresso.</p>
+          </div>
+          <a href="#" class="news__read-more">— Read more</a>
+        </div>
+        <div class="news__publication">
+          <img src="./img/news/post-3.png" class="news__img" alt="Moka pot">
+          <div class="news__title-and-description">
+            <h6 class="news__title">Coffee Roasters and Espresso Specialists - Our Story</h6>
+            <p class="news__description">Coffee House is built on relationships. Our success as a coffee roaster is down to the success of the people we choose to partner with – from our first café customer, to our staff around the world.</p>
+          </div>
+          <a href="#" class="news__read-more">— Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-location" id="our-location">
+      <div class="title-with-description">
+        <h3 class="title-with-description__title">Our Locations</h3>
+        <span class="decorative-line"></span>
+        <p class="title-with-description__description">Come drink a coffee with us 
+          <br>on Fleet Street or Chancery Lane!</p>
+      </div>
+
+      <div class="locations__container">
+        <div class="locations__item">
+          <img class="locations__img" src="./img/our-location/locations/Fleet-Street-Press.jpg" alt="Fleet Street Press">
+          <h5 class="locations__title">Fleet Street Press</h5>
+          <div class="locations__description">
+            <span class="locations__time">Mon - Sun:  10:00 - 00:00</span>
+            <span class="locations__address">3 Fleet Street, London EC4Y 1AU</span>
+          </div>
+        </div>
+        <div class="locations__item">
+          <img class="locations__img" src="./img/our-location/locations/Chancery-Press.jpg" alt="Chancery Press">
+          <h5 class="locations__title">Chancery Press</h5>
+          <div class="locations__description">
+            <span class="locations__time">Mon - Sun:  10:00 - 00:00</span>
+            <span class="locations__address">81 Chancery Lane, London WC2A 1DD</span>
+          </div>
+        </div>
+        <div class="locations__item">
+          <img class="locations__img" src="./img/our-location/locations/SHOREDITCH.jpg" alt="SHOREDITCH">
+          <h5 class="locations__title">SHOREDITCH</h5>
+          <div class="locations__description">
+            <span class="locations__time">Mon - Sun:  10:00 - 00:00</span>
+            <span class="locations__address">Unit 15, Stone Trading Estate Milkwood Road, Herne Hill
+              <br>SE24 0JU</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div class="title-with-description">
+        <h3 class="title-with-description__title">Our Newsletter</h3>
+        <span class="decorative-line"></span>
+        <p class="title-with-description__description">Available all day! We can not guarantee our foods are allergen-free. Service charge not included.</p>
+      </div>
+
+      <form action="#" method="GET" class="newsletter__content">
+        <input required type="email" name="newslatter__email" class="newslatter__email" id="newslatter__email" placeholder="Your E-mail Adress...">
+        <input type="submit" value="subscribe" class="newslatter__btn square-btn" />
+      </form>
+    </section>
+
+    <footer class="footer" id="footer">
+      <span class="copyright">
+        Copyright 2022 Raif Yarullin
+      </span>
+      <div class="footer__follow-us">
+        <a href="#" class="footer__link">Fb</a>
+        <a href="#" class="footer__link">Tw</a>
+        <a href="#" class="footer__link">Ig</a>
+      </div>
+    </footer>
+  </div>
+
+<script src="main.js" type="module"></script>
+</body>
+</html>
