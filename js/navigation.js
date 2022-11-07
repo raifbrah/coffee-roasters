@@ -5,6 +5,7 @@ window.addEventListener('scroll', () => {
     navigation.style.padding = '18px 40px'
     navigation.style.background = '#000d'
     navigation.style.backdropFilter = 'saturate(180%) blur(20px)'
+    navigation.style.webkitBackdropFilter = 'saturate(180%) blur(20px)'
     if (navigation.style.willChange !== "auto") {
       navigation.style.willChange = "auto"
     }
@@ -12,6 +13,7 @@ window.addEventListener('scroll', () => {
     navigation.style.padding = '48px 40px'
     navigation.style.background = 'none'
     navigation.style.backdropFilter = 'none'
+    navigation.style.webkitBackdropFilter = 'none'
   }
 });
 
