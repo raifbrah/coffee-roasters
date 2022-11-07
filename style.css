@@ -135,7 +135,7 @@ a {
   justify-content: space-between;
 
   padding: 48px 40px;
-  will-change: backdrop-filter, padding;
+  will-change: padding, background-color;
   transition: .2s;
 }
 

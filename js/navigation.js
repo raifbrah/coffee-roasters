@@ -3,17 +3,13 @@ window.addEventListener('scroll', () => {
 
   if (pageYOffset > 10) {
     navigation.style.padding = '18px 40px'
-    navigation.style.background = '#000d'
-    navigation.style.backdropFilter = 'saturate(180%) blur(20px)'
-    navigation.style.webkitBackdropFilter = 'saturate(180%) blur(20px)'
+    navigation.style.backgroundColor = '#000'
     if (navigation.style.willChange !== "auto") {
       navigation.style.willChange = "auto"
     }
   } else {
     navigation.style.padding = '48px 40px'
-    navigation.style.background = 'none'
-    navigation.style.backdropFilter = 'none'
-    navigation.style.webkitBackdropFilter = 'none'
+    navigation.style.backgroundColor = 'none'
   }
 });
 
