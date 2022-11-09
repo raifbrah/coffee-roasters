@@ -58,13 +58,17 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
 }
 section {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 48px;
 
-  width: 100%;
+  width: 100vw;
   padding: 96px 40px;
 }
 a {
@@ -138,6 +142,26 @@ a {
   will-change: padding, background-color;
   transition: .2s;
 }
+.navigation::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50vw;
+  background: inherit;
+  transform: translateX(-100%);
+}
+.navigation::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50vw;
+  background: inherit;
+  transform: translateX(100%);
+}
 
 .navigation a {
   text-transform: uppercase;
@@ -202,13 +226,17 @@ a {
 /* HEADER
 =================*/
 .header {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 48px;
 
-  width: 100%;
+  width: 100vw;
   min-height: 700px;
   height: 100vh;
   max-height: 1032px;
@@ -249,6 +277,8 @@ a {
   background-position: center;
 
   scroll-margin-top: 60px;
+
+  width: 100%;
 
   display: flex;
   align-items: center;
@@ -330,7 +360,6 @@ a {
   align-items: center;
   justify-content: center;
 
-  width: 100%;
   background: linear-gradient(#1117, #1117), url('./img/coffee-invitation/coffee-beans.png') center no-repeat;
   background-size: cover;
 }
@@ -354,6 +383,8 @@ a {
   padding-right: 0;
 
   scroll-margin-top: 60px;
+
+  width: 100%;
 }
 .our-menu .decorative-line {
   background: #444444;
@@ -647,12 +678,33 @@ input[name="testimonials-slider__radio"] {
 /* FOOTER
 ==================*/
 .footer {
+  position: relative;
   display: flex;
   justify-content: space-between;
 
   color: #FFFFFF;
   background: #000;
   padding: 48px 160px;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50vw;
+  background: inherit;
+  transform: translateX(-100%);
+}
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50vw;
+  background: inherit;
+  transform: translateX(100%);
 }
 .footer__follow-us {
   display: flex;
